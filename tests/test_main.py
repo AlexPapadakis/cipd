@@ -9,5 +9,5 @@ class TestMainFunctions(unittest.TestCase):
         self.assertEqual(subtract_numbers(5, 3), 2)
 
     def test_multiply_numbers(self):
-        self.assert_Equal(multiply_numbers(5,3),15)
+        self.assertEqual(multiply_numbers(5,3),15)
         
