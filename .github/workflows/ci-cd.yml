@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main  # Adjust based on your branch structure
+      - testing
 
 jobs:
   build:
